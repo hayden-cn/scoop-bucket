@@ -1,0 +1,33 @@
+{
+    "version": "1.2.0",
+    "description": "A simple and fast command-line tool for managing files and directories",
+    "homepage": "https://github.com/unixwin/niubash",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/unixwin/niubash/releases/download/v1.2.0/niubash-win-x64.zip",
+            "hash": "1783c4e702f3d869606fd869bbc45cec5cc7fca44f4e21842d35fdebc05d3b88"
+        }
+    },
+    "extract_dir": "niubash-v1.2.0-win-x64",
+    "bin": "niu.exe",
+    "shortcuts": [
+        [
+            "niu.exe",
+            "Niubash"
+        ]
+    ],
+    "checkver": {
+        "github": "https://github.com/unixwin/niubash"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/unixwin/niubash/releases/download/v$version/niubash-win-x64.zip",
+                "hash": {
+                    "url": "$url.sha256"
+                }
+            }
+        }
+    }
+}
