@@ -1,12 +1,12 @@
 {
-    "version": "11.4.1",
+    "version": "11.5.0",
     "description": "The Ultimate Swiss Army Knife for Xray and Sing-box",
     "homepage": "https://github.com/lilendian0x00/xray-knife",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/lilendian0x00/xray-knife/releases/download/v11.4.1/Xray-knife-windows-64.zip",
-            "hash": "25249051018c7de960058e9a2e692b0ed63e0df39fcb2090515749239f5a73fd"
+            "url": "https://github.com/lilendian0x00/xray-knife/releases/download/v11.5.0/Xray-knife-windows-64.zip",
+            "hash": "25247805bd2ea7909e89208c215e6233a572922e56720a03a156154704d6e97b"
         }
     },
     "bin": "xray-knife.exe",
